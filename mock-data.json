@@ -1,0 +1,3206 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Brown",
+      "email": "hannah.brown@mail.com",
+      "company": "Stark Industries",
+      "plan": "Enterprise",
+      "mrr": 547.49,
+      "signup_date": "2023-11-22T01:58:23Z",
+      "last_login": "2025-01-13T18:37:26Z",
+      "health_score": 40,
+      "churn_risk": 0.98,
+      "nps_score": 2,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 27,
+        "featureB": 76,
+        "featureC": 117
+      },
+      "is_active": false
+    },
+    {
+      "id": 2,
+      "name": "George Rodriguez",
+      "email": "george.rodriguez@mail.com",
+      "company": "Globex Inc",
+      "plan": "Pro",
+      "mrr": 612.93,
+      "signup_date": "2025-05-07T22:10:18Z",
+      "last_login": "2025-03-22T20:33:33Z",
+      "health_score": 53,
+      "churn_risk": 0.68,
+      "nps_score": 10,
+      "support_tickets": 1,
+      "feature_usage": {
+        "featureA": 269,
+        "featureB": 14,
+        "featureC": 79
+      },
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "Hannah Williams",
+      "email": "hannah.williams@example.com",
+      "company": "Initech",
+      "plan": "Basic",
+      "mrr": 437.82,
+      "signup_date": "2023-10-19T04:20:24Z",
+      "last_login": "2025-06-07T05:15:44Z",
+      "health_score": 80,
+      "churn_risk": 0.58,
+      "nps_score": 0,
+      "support_tickets": 0,
+      "feature_usage": {
+        "featureA": 20,
+        "featureB": 49,
+        "featureC": 161
+      },
+      "is_active": false
+    },
+    {
+      "id": 4,
+      "name": "Ian Johnson",
+      "email": "ian.johnson@mail.com",
+      "company": "Stark Industries",
+      "plan": "Enterprise",
+      "mrr": 717.43,
+      "signup_date": "2025-03-08T00:09:11Z",
+      "last_login": "2025-02-11T18:47:40Z",
+      "health_score": 100,
+      "churn_risk": 0.99,
+      "nps_score": 7,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 171,
+        "featureB": 51,
+        "featureC": 200
+      },
+      "is_active": false
+    },
+    {
+      "id": 5,
+      "name": "Diana Johnson",
+      "email": "diana.johnson@service.org",
+      "company": "Stark Industries",
+      "plan": "Pro",
+      "mrr": 918.74,
+      "signup_date": "2024-06-24T01:16:34Z",
+      "last_login": "2025-05-12T10:35:49Z",
+      "health_score": 68,
+      "churn_risk": 0.08,
+      "nps_score": 8,
+      "support_tickets": 7,
+      "feature_usage": {
+        "featureA": 189,
+        "featureB": 57,
+        "featureC": 357
+      },
+      "is_active": false
+    },
+    {
+      "id": 6,
+      "name": "Fiona Williams",
+      "email": "fiona.williams@example.com",
+      "company": "Globex Inc",
+      "plan": "Enterprise",
+      "mrr": 716.42,
+      "signup_date": "2023-02-10T15:59:41Z",
+      "last_login": "2025-01-23T07:13:50Z",
+      "health_score": 86,
+      "churn_risk": 0.85,
+      "nps_score": 6,
+      "support_tickets": 6,
+      "feature_usage": {
+        "featureA": 93,
+        "featureB": 64,
+        "featureC": 273
+      },
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "name": "Diana Wilson",
+      "email": "diana.wilson@company.com",
+      "company": "Acme Corp",
+      "plan": "Pro",
+      "mrr": 558.13,
+      "signup_date": "2023-07-26T17:56:28Z",
+      "last_login": "2025-02-09T23:32:05Z",
+      "health_score": 97,
+      "churn_risk": 0.61,
+      "nps_score": 9,
+      "support_tickets": 3,
+      "feature_usage": {
+        "featureA": 114,
+        "featureB": 74,
+        "featureC": 64
+      },
+      "is_active": false
+    },
+    {
+      "id": 8,
+      "name": "Bob Garcia",
+      "email": "bob.garcia@example.com",
+      "company": "Acme Corp",
+      "plan": "Basic",
+      "mrr": 796.85,
+      "signup_date": "2024-08-26T12:00:42Z",
+      "last_login": "2025-08-03T13:59:44Z",
+      "health_score": 79,
+      "churn_risk": 0.89,
+      "nps_score": 10,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 196,
+        "featureB": 72,
+        "featureC": 141
+      },
+      "is_active": false
+    },
+    {
+      "id": 9,
+      "name": "Charlie Williams",
+      "email": "charlie.williams@mail.com",
+      "company": "Acme Corp",
+      "plan": "Enterprise",
+      "mrr": 52.43,
+      "signup_date": "2023-02-25T05:52:54Z",
+      "last_login": "2025-06-26T20:00:28Z",
+      "health_score": 72,
+      "churn_risk": 0.98,
+      "nps_score": 1,
+      "support_tickets": 1,
+      "feature_usage": {
+        "featureA": 159,
+        "featureB": 76,
+        "featureC": 230
+      },
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "name": "Julia Smith",
+      "email": "julia.smith@mail.com",
+      "company": "Stark Industries",
+      "plan": "Basic",
+      "mrr": 210.26,
+      "signup_date": "2024-05-31T08:55:31Z",
+      "last_login": "2025-07-24T14:34:35Z",
+      "health_score": 83,
+      "churn_risk": 0.77,
+      "nps_score": 4,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 294,
+        "featureB": 87,
+        "featureC": 212
+      },
+      "is_active": false
+    },
+    {
+      "id": 11,
+      "name": "Charlie Johnson",
+      "email": "charlie.johnson@mail.com",
+      "company": "Soylent Corp",
+      "plan": "Basic",
+      "mrr": 593.51,
+      "signup_date": "2024-12-29T06:00:02Z",
+      "last_login": "2025-04-15T15:16:02Z",
+      "health_score": 81,
+      "churn_risk": 0.91,
+      "nps_score": 6,
+      "support_tickets": 5,
+      "feature_usage": {
+        "featureA": 64,
+        "featureB": 32,
+        "featureC": 320
+      },
+      "is_active": true
+    },
+    {
+      "id": 12,
+      "name": "Charlie Smith",
+      "email": "charlie.smith@company.com",
+      "company": "Globex Inc",
+      "plan": "Pro",
+      "mrr": 301.95,
+      "signup_date": "2024-06-20T19:58:41Z",
+      "last_login": "2025-07-17T07:55:29Z",
+      "health_score": 54,
+      "churn_risk": 0.12,
+      "nps_score": 6,
+      "support_tickets": 4,
+      "feature_usage": {
+        "featureA": 208,
+        "featureB": 39,
+        "featureC": 192
+      },
+      "is_active": false
+    },
+    {
+      "id": 13,
+      "name": "Julia Smith",
+      "email": "julia.smith@mail.com",
+      "company": "Initech",
+      "plan": "Enterprise",
+      "mrr": 954.19,
+      "signup_date": "2023-01-19T13:05:22Z",
+      "last_login": "2025-03-03T08:38:26Z",
+      "health_score": 46,
+      "churn_risk": 0.94,
+      "nps_score": 3,
+      "support_tickets": 0,
+      "feature_usage": {
+        "featureA": 148,
+        "featureB": 55,
+        "featureC": 254
+      },
+      "is_active": true
+    },
+    {
+      "id": 14,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@mail.com",
+      "company": "Initech",
+      "plan": "Pro",
+      "mrr": 297.6,
+      "signup_date": "2025-04-28T06:32:46Z",
+      "last_login": "2025-06-23T15:19:16Z",
+      "health_score": 96,
+      "churn_risk": 0.45,
+      "nps_score": 8,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 66,
+        "featureB": 13,
+        "featureC": 87
+      },
+      "is_active": true
+    },
+    {
+      "id": 15,
+      "name": "Fiona Garcia",
+      "email": "fiona.garcia@example.com",
+      "company": "Soylent Corp",
+      "plan": "Pro",
+      "mrr": 914.9,
+      "signup_date": "2024-07-28T20:27:54Z",
+      "last_login": "2025-02-19T01:43:10Z",
+      "health_score": 53,
+      "churn_risk": 0.22,
+      "nps_score": 3,
+      "support_tickets": 10,
+      "feature_usage": {
+        "featureA": 71,
+        "featureB": 70,
+        "featureC": 37
+      },
+      "is_active": false
+    },
+    {
+      "id": 16,
+      "name": "Charlie Williams",
+      "email": "charlie.williams@example.com",
+      "company": "Umbrella Corp",
+      "plan": "Basic",
+      "mrr": 150.3,
+      "signup_date": "2023-05-01T04:12:51Z",
+      "last_login": "2025-01-05T21:39:11Z",
+      "health_score": 72,
+      "churn_risk": 0.58,
+      "nps_score": 10,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 67,
+        "featureB": 31,
+        "featureC": 175
+      },
+      "is_active": true
+    },
+    {
+      "id": 17,
+      "name": "Evan Jones",
+      "email": "evan.jones@service.org",
+      "company": "Acme Corp",
+      "plan": "Enterprise",
+      "mrr": 644.74,
+      "signup_date": "2025-07-07T22:23:06Z",
+      "last_login": "2025-05-12T06:36:01Z",
+      "health_score": 75,
+      "churn_risk": 0.13,
+      "nps_score": 9,
+      "support_tickets": 3,
+      "feature_usage": {
+        "featureA": 169,
+        "featureB": 16,
+        "featureC": 264
+      },
+      "is_active": false
+    },
+    {
+      "id": 18,
+      "name": "Ian Wilson",
+      "email": "ian.wilson@example.com",
+      "company": "Soylent Corp",
+      "plan": "Enterprise",
+      "mrr": 133.27,
+      "signup_date": "2023-10-08T10:49:49Z",
+      "last_login": "2025-05-06T05:55:45Z",
+      "health_score": 100,
+      "churn_risk": 0.36,
+      "nps_score": 6,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 51,
+        "featureB": 7,
+        "featureC": 350
+      },
+      "is_active": true
+    },
+    {
+      "id": 19,
+      "name": "Diana Davis",
+      "email": "diana.davis@company.com",
+      "company": "Acme Corp",
+      "plan": "Pro",
+      "mrr": 561.13,
+      "signup_date": "2023-11-13T15:16:17Z",
+      "last_login": "2025-04-04T10:05:18Z",
+      "health_score": 74,
+      "churn_risk": 0.22,
+      "nps_score": 5,
+      "support_tickets": 1,
+      "feature_usage": {
+        "featureA": 219,
+        "featureB": 93,
+        "featureC": 291
+      },
+      "is_active": false
+    },
+    {
+      "id": 20,
+      "name": "Julia Garcia",
+      "email": "julia.garcia@mail.com",
+      "company": "Umbrella Corp",
+      "plan": "Basic",
+      "mrr": 590.52,
+      "signup_date": "2023-11-21T18:29:06Z",
+      "last_login": "2025-07-15T22:23:40Z",
+      "health_score": 80,
+      "churn_risk": 0.61,
+      "nps_score": 6,
+      "support_tickets": 5,
+      "feature_usage": {
+        "featureA": 277,
+        "featureB": 8,
+        "featureC": 90
+      },
+      "is_active": false
+    },
+    {
+      "id": 21,
+      "name": "Alice Miller",
+      "email": "alice.miller@company.com",
+      "company": "Globex Inc",
+      "plan": "Pro",
+      "mrr": 285.99,
+      "signup_date": "2025-05-08T21:59:24Z",
+      "last_login": "2025-02-28T00:06:18Z",
+      "health_score": 82,
+      "churn_risk": 0.96,
+      "nps_score": 6,
+      "support_tickets": 6,
+      "feature_usage": {
+        "featureA": 20,
+        "featureB": 10,
+        "featureC": 110
+      },
+      "is_active": true
+    },
+    {
+      "id": 22,
+      "name": "Charlie Garcia",
+      "email": "charlie.garcia@service.org",
+      "company": "Initech",
+      "plan": "Basic",
+      "mrr": 286.32,
+      "signup_date": "2024-12-07T08:58:30Z",
+      "last_login": "2025-04-15T12:28:08Z",
+      "health_score": 83,
+      "churn_risk": 0.96,
+      "nps_score": 7,
+      "support_tickets": 0,
+      "feature_usage": {
+        "featureA": 154,
+        "featureB": 36,
+        "featureC": 290
+      },
+      "is_active": true
+    },
+    {
+      "id": 23,
+      "name": "Charlie Williams",
+      "email": "charlie.williams@example.com",
+      "company": "Umbrella Corp",
+      "plan": "Enterprise",
+      "mrr": 326.94,
+      "signup_date": "2024-11-09T17:06:43Z",
+      "last_login": "2025-01-28T12:22:25Z",
+      "health_score": 58,
+      "churn_risk": 0.77,
+      "nps_score": 9,
+      "support_tickets": 3,
+      "feature_usage": {
+        "featureA": 63,
+        "featureB": 42,
+        "featureC": 91
+      },
+      "is_active": true
+    },
+    {
+      "id": 24,
+      "name": "Julia Davis",
+      "email": "julia.davis@service.org",
+      "company": "Globex Inc",
+      "plan": "Pro",
+      "mrr": 745.14,
+      "signup_date": "2024-05-20T06:40:06Z",
+      "last_login": "2025-07-14T11:30:19Z",
+      "health_score": 54,
+      "churn_risk": 0.23,
+      "nps_score": 10,
+      "support_tickets": 5,
+      "feature_usage": {
+        "featureA": 84,
+        "featureB": 12,
+        "featureC": 208
+      },
+      "is_active": true
+    },
+    {
+      "id": 25,
+      "name": "Julia Wilson",
+      "email": "julia.wilson@company.com",
+      "company": "Soylent Corp",
+      "plan": "Pro",
+      "mrr": 963.86,
+      "signup_date": "2024-08-07T01:55:30Z",
+      "last_login": "2025-02-22T20:52:43Z",
+      "health_score": 89,
+      "churn_risk": 0.99,
+      "nps_score": 8,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 67,
+        "featureB": 100,
+        "featureC": 348
+      },
+      "is_active": false
+    },
+    {
+      "id": 26,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@company.com",
+      "company": "Soylent Corp",
+      "plan": "Basic",
+      "mrr": 344.6,
+      "signup_date": "2025-06-28T03:18:18Z",
+      "last_login": "2025-03-29T22:24:30Z",
+      "health_score": 69,
+      "churn_risk": 0.39,
+      "nps_score": 8,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 272,
+        "featureB": 5,
+        "featureC": 65
+      },
+      "is_active": false
+    },
+    {
+      "id": 27,
+      "name": "Julia Johnson",
+      "email": "julia.johnson@company.com",
+      "company": "Initech",
+      "plan": "Pro",
+      "mrr": 279.69,
+      "signup_date": "2023-03-15T23:58:48Z",
+      "last_login": "2025-07-26T00:48:58Z",
+      "health_score": 64,
+      "churn_risk": 0.33,
+      "nps_score": 5,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 207,
+        "featureB": 45,
+        "featureC": 92
+      },
+      "is_active": false
+    },
+    {
+      "id": 28,
+      "name": "Ian Rodriguez",
+      "email": "ian.rodriguez@example.com",
+      "company": "Globex Inc",
+      "plan": "Pro",
+      "mrr": 675.51,
+      "signup_date": "2023-07-04T17:45:04Z",
+      "last_login": "2025-03-10T22:08:39Z",
+      "health_score": 74,
+      "churn_risk": 0.86,
+      "nps_score": 2,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 177,
+        "featureB": 33,
+        "featureC": 276
+      },
+      "is_active": false
+    },
+    {
+      "id": 29,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@mail.com",
+      "company": "Umbrella Corp",
+      "plan": "Pro",
+      "mrr": 845.7,
+      "signup_date": "2023-10-26T10:47:43Z",
+      "last_login": "2025-02-03T02:06:58Z",
+      "health_score": 65,
+      "churn_risk": 0.76,
+      "nps_score": 4,
+      "support_tickets": 4,
+      "feature_usage": {
+        "featureA": 224,
+        "featureB": 54,
+        "featureC": 54
+      },
+      "is_active": true
+    },
+    {
+      "id": 30,
+      "name": "Fiona Smith",
+      "email": "fiona.smith@mail.com",
+      "company": "Globex Inc",
+      "plan": "Basic",
+      "mrr": 327.97,
+      "signup_date": "2024-07-08T05:31:51Z",
+      "last_login": "2025-07-15T13:47:30Z",
+      "health_score": 91,
+      "churn_risk": 0.52,
+      "nps_score": 7,
+      "support_tickets": 6,
+      "feature_usage": {
+        "featureA": 88,
+        "featureB": 44,
+        "featureC": 341
+      },
+      "is_active": false
+    },
+    {
+      "id": 31,
+      "name": "Hannah Brown",
+      "email": "hannah.brown@mail.com",
+      "company": "Soylent Corp",
+      "plan": "Enterprise",
+      "mrr": 433.08,
+      "signup_date": "2023-08-23T20:36:21Z",
+      "last_login": "2025-04-17T06:39:25Z",
+      "health_score": 48,
+      "churn_risk": 0.44,
+      "nps_score": 1,
+      "support_tickets": 10,
+      "feature_usage": {
+        "featureA": 208,
+        "featureB": 9,
+        "featureC": 234
+      },
+      "is_active": true
+    },
+    {
+      "id": 32,
+      "name": "Bob Miller",
+      "email": "bob.miller@service.org",
+      "company": "Globex Inc",
+      "plan": "Pro",
+      "mrr": 191.69,
+      "signup_date": "2024-02-04T08:48:09Z",
+      "last_login": "2025-02-23T18:36:13Z",
+      "health_score": 73,
+      "churn_risk": 0.79,
+      "nps_score": 1,
+      "support_tickets": 1,
+      "feature_usage": {
+        "featureA": 42,
+        "featureB": 58,
+        "featureC": 396
+      },
+      "is_active": false
+    },
+    {
+      "id": 33,
+      "name": "Ian Johnson",
+      "email": "ian.johnson@company.com",
+      "company": "Initech",
+      "plan": "Basic",
+      "mrr": 94.33,
+      "signup_date": "2023-05-24T19:40:07Z",
+      "last_login": "2025-02-10T23:49:09Z",
+      "health_score": 40,
+      "churn_risk": 0.36,
+      "nps_score": 7,
+      "support_tickets": 0,
+      "feature_usage": {
+        "featureA": 297,
+        "featureB": 75,
+        "featureC": 27
+      },
+      "is_active": true
+    },
+    {
+      "id": 34,
+      "name": "George Miller",
+      "email": "george.miller@example.com",
+      "company": "Acme Corp",
+      "plan": "Enterprise",
+      "mrr": 258.22,
+      "signup_date": "2023-06-09T01:47:37Z",
+      "last_login": "2025-04-08T04:46:10Z",
+      "health_score": 84,
+      "churn_risk": 0.62,
+      "nps_score": 4,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 158,
+        "featureB": 48,
+        "featureC": 114
+      },
+      "is_active": true
+    },
+    {
+      "id": 35,
+      "name": "Alice Rodriguez",
+      "email": "alice.rodriguez@example.com",
+      "company": "Acme Corp",
+      "plan": "Enterprise",
+      "mrr": 696.15,
+      "signup_date": "2025-01-09T04:45:24Z",
+      "last_login": "2025-07-28T02:22:16Z",
+      "health_score": 67,
+      "churn_risk": 0.97,
+      "nps_score": 2,
+      "support_tickets": 3,
+      "feature_usage": {
+        "featureA": 147,
+        "featureB": 53,
+        "featureC": 348
+      },
+      "is_active": true
+    },
+    {
+      "id": 36,
+      "name": "Charlie Smith",
+      "email": "charlie.smith@example.com",
+      "company": "Initech",
+      "plan": "Pro",
+      "mrr": 304.35,
+      "signup_date": "2024-02-17T08:48:27Z",
+      "last_login": "2025-03-20T18:57:31Z",
+      "health_score": 74,
+      "churn_risk": 0.7,
+      "nps_score": 1,
+      "support_tickets": 10,
+      "feature_usage": {
+        "featureA": 45,
+        "featureB": 80,
+        "featureC": 272
+      },
+      "is_active": false
+    },
+    {
+      "id": 37,
+      "name": "Alice Williams",
+      "email": "alice.williams@company.com",
+      "company": "Soylent Corp",
+      "plan": "Enterprise",
+      "mrr": 549.98,
+      "signup_date": "2023-07-21T15:14:31Z",
+      "last_login": "2025-04-14T00:08:03Z",
+      "health_score": 59,
+      "churn_risk": 0.96,
+      "nps_score": 1,
+      "support_tickets": 4,
+      "feature_usage": {
+        "featureA": 226,
+        "featureB": 71,
+        "featureC": 98
+      },
+      "is_active": true
+    },
+    {
+      "id": 38,
+      "name": "Fiona Williams",
+      "email": "fiona.williams@example.com",
+      "company": "Soylent Corp",
+      "plan": "Pro",
+      "mrr": 770.39,
+      "signup_date": "2025-04-07T10:07:04Z",
+      "last_login": "2025-08-11T14:46:31Z",
+      "health_score": 77,
+      "churn_risk": 0.86,
+      "nps_score": 10,
+      "support_tickets": 4,
+      "feature_usage": {
+        "featureA": 164,
+        "featureB": 16,
+        "featureC": 4
+      },
+      "is_active": false
+    },
+    {
+      "id": 39,
+      "name": "Alice Williams",
+      "email": "alice.williams@company.com",
+      "company": "Acme Corp",
+      "plan": "Basic",
+      "mrr": 603.35,
+      "signup_date": "2024-01-10T23:27:35Z",
+      "last_login": "2025-04-26T10:46:05Z",
+      "health_score": 96,
+      "churn_risk": 0.64,
+      "nps_score": 1,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 171,
+        "featureB": 94,
+        "featureC": 216
+      },
+      "is_active": false
+    },
+    {
+      "id": 40,
+      "name": "Julia Jones",
+      "email": "julia.jones@company.com",
+      "company": "Stark Industries",
+      "plan": "Pro",
+      "mrr": 50.37,
+      "signup_date": "2025-04-14T08:20:43Z",
+      "last_login": "2025-07-27T19:30:52Z",
+      "health_score": 49,
+      "churn_risk": 0.5,
+      "nps_score": 7,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 257,
+        "featureB": 62,
+        "featureC": 165
+      },
+      "is_active": true
+    },
+    {
+      "id": 41,
+      "name": "Bob Wilson",
+      "email": "bob.wilson@company.com",
+      "company": "Umbrella Corp",
+      "plan": "Basic",
+      "mrr": 942.18,
+      "signup_date": "2024-03-28T10:53:08Z",
+      "last_login": "2025-04-04T07:32:33Z",
+      "health_score": 85,
+      "churn_risk": 0.58,
+      "nps_score": 0,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 80,
+        "featureB": 71,
+        "featureC": 73
+      },
+      "is_active": false
+    },
+    {
+      "id": 42,
+      "name": "Diana Johnson",
+      "email": "diana.johnson@example.com",
+      "company": "Initech",
+      "plan": "Enterprise",
+      "mrr": 314.62,
+      "signup_date": "2024-03-02T23:43:15Z",
+      "last_login": "2025-01-09T01:30:02Z",
+      "health_score": 84,
+      "churn_risk": 0.76,
+      "nps_score": 2,
+      "support_tickets": 10,
+      "feature_usage": {
+        "featureA": 159,
+        "featureB": 25,
+        "featureC": 379
+      },
+      "is_active": false
+    },
+    {
+      "id": 43,
+      "name": "George Jones",
+      "email": "george.jones@service.org",
+      "company": "Stark Industries",
+      "plan": "Pro",
+      "mrr": 496.33,
+      "signup_date": "2024-01-10T06:55:56Z",
+      "last_login": "2025-03-05T02:34:22Z",
+      "health_score": 44,
+      "churn_risk": 0.47,
+      "nps_score": 5,
+      "support_tickets": 8,
+      "feature_usage": {
+        "featureA": 285,
+        "featureB": 86,
+        "featureC": 284
+      },
+      "is_active": false
+    },
+    {
+      "id": 44,
+      "name": "Julia Williams",
+      "email": "julia.williams@service.org",
+      "company": "Initech",
+      "plan": "Basic",
+      "mrr": 783.07,
+      "signup_date": "2024-11-28T20:26:36Z",
+      "last_login": "2025-01-06T12:17:20Z",
+      "health_score": 94,
+      "churn_risk": 0.55,
+      "nps_score": 1,
+      "support_tickets": 9,
+      "feature_usage": {
+        "featureA": 229,
+        "featureB": 71,
+        "featureC": 170
+      },
+      "is_active": true
+    },
+    {
+      "id": 45,
+      "name": "Alice Davis",
+      "email": "alice.davis@company.com",
+      "company": "Acme Corp",
+      "plan": "Basic",
+      "mrr": 658.03,
+      "signup_date": "2024-01-16T03:44:14Z",
+      "last_login": "2025-04-05T21:35:20Z",
+      "health_score": 46,
+      "churn_risk": 0.07,
+      "nps_score": 9,
+      "support_tickets": 1,
+      "feature_usage": {
+        "featureA": 108,
+        "featureB": 31,
+        "featureC": 106
+      },
+      "is_active": false
+    },
+    {
+      "id": 46,
+      "name": "George Wilson",
+      "email": "george.wilson@company.com",
+      "company": "Soylent Corp",
+      "plan": "Basic",
+      "mrr": 303.97,
+      "signup_date": "2025-01-17T22:41:43Z",
+      "last_login": "2025-02-01T06:22:41Z",
+      "health_score": 89,
+      "churn_risk": 0.64,
+      "nps_score": 9,
+      "support_tickets": 1,
+      "feature_usage": {
+        "featureA": 203,
+        "featureB": 35,
+        "featureC": 232
+      },
+      "is_active": false
+    },
+    {
+      "id": 47,
+      "name": "Julia Wilson",
+      "email": "julia.wilson@example.com",
+      "company": "Soylent Corp",
+      "plan": "Pro",
+      "mrr": 484.1,
+      "signup_date": "2025-05-17T02:54:05Z",
+      "last_login": "2025-07-02T04:38:41Z",
+      "health_score": 45,
+      "churn_risk": 0.58,
+      "nps_score": 8,
+      "support_tickets": 6,
+      "feature_usage": {
+        "featureA": 59,
+        "featureB": 53,
+        "featureC": 164
+      },
+      "is_active": false
+    },
+    {
+      "id": 48,
+      "name": "Diana Davis",
+      "email": "diana.davis@mail.com",
+      "company": "Initech",
+      "plan": "Basic",
+      "mrr": 940.66,
+      "signup_date": "2023-05-20T05:40:56Z",
+      "last_login": "2025-06-10T15:50:12Z",
+      "health_score": 43,
+      "churn_risk": 0.21,
+      "nps_score": 2,
+      "support_tickets": 7,
+      "feature_usage": {
+        "featureA": 294,
+        "featureB": 35,
+        "featureC": 9
+      },
+      "is_active": false
+    },
+    {
+      "id": 49,
+      "name": "Bob Jones",
+      "email": "bob.jones@example.com",
+      "company": "Soylent Corp",
+      "plan": "Enterprise",
+      "mrr": 756.6,
+      "signup_date": "2024-12-10T22:41:30Z",
+      "last_login": "2025-01-23T10:07:10Z",
+      "health_score": 48,
+      "churn_risk": 0.17,
+      "nps_score": 0,
+      "support_tickets": 3,
+      "feature_usage": {
+        "featureA": 243,
+        "featureB": 11,
+        "featureC": 29
+      },
+      "is_active": false
+    },
+    {
+      "id": 50,
+      "name": "Bob Miller",
+      "email": "bob.miller@company.com",
+      "company": "Umbrella Corp",
+      "plan": "Enterprise",
+      "mrr": 149.7,
+      "signup_date": "2024-05-18T04:08:48Z",
+      "last_login": "2025-03-13T23:30:56Z",
+      "health_score": 44,
+      "churn_risk": 0.04,
+      "nps_score": 4,
+      "support_tickets": 0,
+      "feature_usage": {
+        "featureA": 169,
+        "featureB": 87,
+        "featureC": 122
+      },
+      "is_active": true
+    }
+  ],
+  "interventions": [
+    {
+      "id": 1,
+      "customer_id": 14,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 1",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-07-22T20:58:54Z",
+      "created_at": "2024-01-01T01:46:21Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 1"
+    },
+    {
+      "id": 2,
+      "customer_id": 25,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 2",
+      "next_action": "Schedule call",
+      "due_date": "2024-12-05T09:13:08Z",
+      "created_at": "2024-07-24T03:26:20Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 2"
+    },
+    {
+      "id": 3,
+      "customer_id": 25,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 3",
+      "next_action": "Schedule call",
+      "due_date": "2024-02-09T09:53:40Z",
+      "created_at": "2023-12-01T07:37:50Z",
+      "completed_at": "2024-11-04T00:33:47Z",
+      "notes": "Notes for intervention 3"
+    },
+    {
+      "id": 4,
+      "customer_id": 4,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 4",
+      "next_action": "Review account",
+      "due_date": "2024-05-06T13:23:06Z",
+      "created_at": "2024-12-02T08:04:02Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 4"
+    },
+    {
+      "id": 5,
+      "customer_id": 8,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 5",
+      "next_action": "Escalate issue",
+      "due_date": "2025-02-06T07:47:04Z",
+      "created_at": "2024-11-12T05:27:21Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 5"
+    },
+    {
+      "id": 6,
+      "customer_id": 40,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 6",
+      "next_action": "Review account",
+      "due_date": "2024-02-25T16:13:16Z",
+      "created_at": "2023-03-21T02:00:14Z",
+      "completed_at": "2023-08-18T20:08:24Z",
+      "notes": "Notes for intervention 6"
+    },
+    {
+      "id": 7,
+      "customer_id": 32,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 7",
+      "next_action": "Schedule call",
+      "due_date": "2025-11-23T16:43:31Z",
+      "created_at": "2025-03-26T20:24:43Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 7"
+    },
+    {
+      "id": 8,
+      "customer_id": 10,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 8",
+      "next_action": "Schedule call",
+      "due_date": "2025-12-15T11:34:27Z",
+      "created_at": "2024-09-16T08:24:58Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 8"
+    },
+    {
+      "id": 9,
+      "customer_id": 47,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 9",
+      "next_action": "Review account",
+      "due_date": "2024-08-29T05:02:06Z",
+      "created_at": "2023-10-13T16:12:50Z",
+      "completed_at": "2025-02-11T00:52:13Z",
+      "notes": "Notes for intervention 9"
+    },
+    {
+      "id": 10,
+      "customer_id": 7,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 10",
+      "next_action": "Schedule call",
+      "due_date": "2024-10-30T21:15:28Z",
+      "created_at": "2024-08-18T11:10:25Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 10"
+    },
+    {
+      "id": 11,
+      "customer_id": 20,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 11",
+      "next_action": "Review account",
+      "due_date": "2025-09-12T21:09:06Z",
+      "created_at": "2024-04-05T22:44:21Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 11"
+    },
+    {
+      "id": 12,
+      "customer_id": 45,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 12",
+      "next_action": "Schedule call",
+      "due_date": "2024-11-12T21:09:04Z",
+      "created_at": "2025-05-21T02:35:46Z",
+      "completed_at": "2023-08-14T01:34:32Z",
+      "notes": "Notes for intervention 12"
+    },
+    {
+      "id": 13,
+      "customer_id": 39,
+      "type": "Upsell Proposal",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 13",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-08-31T22:46:17Z",
+      "created_at": "2024-09-24T01:53:31Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 13"
+    },
+    {
+      "id": 14,
+      "customer_id": 40,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 14",
+      "next_action": "Escalate issue",
+      "due_date": "2024-09-04T04:44:31Z",
+      "created_at": "2025-03-16T10:08:57Z",
+      "completed_at": "2025-08-29T23:41:57Z",
+      "notes": "Notes for intervention 14"
+    },
+    {
+      "id": 15,
+      "customer_id": 40,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 15",
+      "next_action": "Schedule call",
+      "due_date": "2024-07-10T15:58:41Z",
+      "created_at": "2023-05-31T21:09:10Z",
+      "completed_at": "2023-11-21T12:47:15Z",
+      "notes": "Notes for intervention 15"
+    },
+    {
+      "id": 16,
+      "customer_id": 26,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 16",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-08-02T20:36:38Z",
+      "created_at": "2024-12-20T21:10:09Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 16"
+    },
+    {
+      "id": 17,
+      "customer_id": 24,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 17",
+      "next_action": "Escalate issue",
+      "due_date": "2025-10-31T20:22:21Z",
+      "created_at": "2024-03-16T00:51:18Z",
+      "completed_at": "2024-05-16T11:10:17Z",
+      "notes": "Notes for intervention 17"
+    },
+    {
+      "id": 18,
+      "customer_id": 13,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 18",
+      "next_action": "Review account",
+      "due_date": "2025-01-30T04:54:12Z",
+      "created_at": "2024-07-09T15:39:16Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 18"
+    },
+    {
+      "id": 19,
+      "customer_id": 1,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 19",
+      "next_action": "Review account",
+      "due_date": "2024-01-25T16:23:25Z",
+      "created_at": "2024-06-28T17:36:27Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 19"
+    },
+    {
+      "id": 20,
+      "customer_id": 36,
+      "type": "Upsell Proposal",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 20",
+      "next_action": "Review account",
+      "due_date": "2024-09-10T00:47:05Z",
+      "created_at": "2023-01-22T03:56:03Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 20"
+    },
+    {
+      "id": 21,
+      "customer_id": 48,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 21",
+      "next_action": "Review account",
+      "due_date": "2025-06-16T07:28:38Z",
+      "created_at": "2024-06-23T20:27:14Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 21"
+    },
+    {
+      "id": 22,
+      "customer_id": 10,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 22",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-12-25T20:48:05Z",
+      "created_at": "2024-05-04T15:42:37Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 22"
+    },
+    {
+      "id": 23,
+      "customer_id": 4,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 23",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-06-11T21:48:13Z",
+      "created_at": "2025-02-05T14:51:17Z",
+      "completed_at": "2025-05-19T17:19:37Z",
+      "notes": "Notes for intervention 23"
+    },
+    {
+      "id": 24,
+      "customer_id": 45,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 24",
+      "next_action": "Review account",
+      "due_date": "2025-11-25T20:02:53Z",
+      "created_at": "2025-03-28T16:39:42Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 24"
+    },
+    {
+      "id": 25,
+      "customer_id": 25,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 25",
+      "next_action": "Schedule call",
+      "due_date": "2025-04-25T10:07:22Z",
+      "created_at": "2025-03-13T14:19:23Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 25"
+    },
+    {
+      "id": 26,
+      "customer_id": 1,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 26",
+      "next_action": "Schedule call",
+      "due_date": "2025-07-13T03:24:58Z",
+      "created_at": "2023-10-11T19:39:17Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 26"
+    },
+    {
+      "id": 27,
+      "customer_id": 7,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 27",
+      "next_action": "Escalate issue",
+      "due_date": "2025-03-20T10:35:53Z",
+      "created_at": "2023-03-22T14:15:59Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 27"
+    },
+    {
+      "id": 28,
+      "customer_id": 37,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 28",
+      "next_action": "Escalate issue",
+      "due_date": "2024-09-07T04:44:42Z",
+      "created_at": "2025-07-05T09:31:48Z",
+      "completed_at": "2025-11-12T06:34:27Z",
+      "notes": "Notes for intervention 28"
+    },
+    {
+      "id": 29,
+      "customer_id": 32,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 29",
+      "next_action": "Escalate issue",
+      "due_date": "2025-10-17T13:01:43Z",
+      "created_at": "2024-09-25T11:03:00Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 29"
+    },
+    {
+      "id": 30,
+      "customer_id": 5,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 30",
+      "next_action": "Schedule call",
+      "due_date": "2025-02-24T17:31:56Z",
+      "created_at": "2024-02-08T07:37:42Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 30"
+    },
+    {
+      "id": 31,
+      "customer_id": 30,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 31",
+      "next_action": "Escalate issue",
+      "due_date": "2025-11-29T04:18:45Z",
+      "created_at": "2024-12-10T11:37:44Z",
+      "completed_at": "2023-05-28T08:02:13Z",
+      "notes": "Notes for intervention 31"
+    },
+    {
+      "id": 32,
+      "customer_id": 23,
+      "type": "Upsell Proposal",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 32",
+      "next_action": "Review account",
+      "due_date": "2024-07-25T21:07:15Z",
+      "created_at": "2023-10-14T00:23:46Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 32"
+    },
+    {
+      "id": 33,
+      "customer_id": 19,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 33",
+      "next_action": "Escalate issue",
+      "due_date": "2024-11-27T11:21:02Z",
+      "created_at": "2025-06-21T07:27:07Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 33"
+    },
+    {
+      "id": 34,
+      "customer_id": 26,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 34",
+      "next_action": "Schedule call",
+      "due_date": "2024-10-09T17:49:19Z",
+      "created_at": "2023-02-19T19:23:52Z",
+      "completed_at": "2024-01-08T09:00:33Z",
+      "notes": "Notes for intervention 34"
+    },
+    {
+      "id": 35,
+      "customer_id": 32,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 35",
+      "next_action": "Schedule call",
+      "due_date": "2024-05-03T00:43:57Z",
+      "created_at": "2025-01-13T14:35:46Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 35"
+    },
+    {
+      "id": 36,
+      "customer_id": 38,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 36",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-10-12T23:13:36Z",
+      "created_at": "2024-10-15T21:57:51Z",
+      "completed_at": "2023-06-06T20:36:26Z",
+      "notes": "Notes for intervention 36"
+    },
+    {
+      "id": 37,
+      "customer_id": 11,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 37",
+      "next_action": "Schedule call",
+      "due_date": "2024-06-29T06:23:09Z",
+      "created_at": "2023-11-23T14:33:12Z",
+      "completed_at": "2024-02-13T13:15:07Z",
+      "notes": "Notes for intervention 37"
+    },
+    {
+      "id": 38,
+      "customer_id": 24,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 38",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-01-30T22:46:07Z",
+      "created_at": "2025-07-20T19:43:27Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 38"
+    },
+    {
+      "id": 39,
+      "customer_id": 44,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 39",
+      "next_action": "Review account",
+      "due_date": "2024-11-22T04:13:53Z",
+      "created_at": "2024-02-13T20:53:58Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 39"
+    },
+    {
+      "id": 40,
+      "customer_id": 7,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 40",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-09-03T20:58:11Z",
+      "created_at": "2024-09-12T01:33:19Z",
+      "completed_at": "2023-11-21T19:48:18Z",
+      "notes": "Notes for intervention 40"
+    },
+    {
+      "id": 41,
+      "customer_id": 3,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 41",
+      "next_action": "Review account",
+      "due_date": "2025-04-13T16:42:07Z",
+      "created_at": "2023-03-17T01:54:51Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 41"
+    },
+    {
+      "id": 42,
+      "customer_id": 1,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 42",
+      "next_action": "Schedule call",
+      "due_date": "2024-02-15T14:11:12Z",
+      "created_at": "2025-08-08T13:37:43Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 42"
+    },
+    {
+      "id": 43,
+      "customer_id": 17,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 43",
+      "next_action": "Review account",
+      "due_date": "2024-08-21T08:53:20Z",
+      "created_at": "2023-11-27T20:00:58Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 43"
+    },
+    {
+      "id": 44,
+      "customer_id": 30,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 44",
+      "next_action": "Escalate issue",
+      "due_date": "2025-11-08T17:26:41Z",
+      "created_at": "2024-09-23T05:28:55Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 44"
+    },
+    {
+      "id": 45,
+      "customer_id": 27,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 45",
+      "next_action": "Schedule call",
+      "due_date": "2025-04-01T17:44:57Z",
+      "created_at": "2024-10-29T15:21:26Z",
+      "completed_at": "2024-10-08T23:07:53Z",
+      "notes": "Notes for intervention 45"
+    },
+    {
+      "id": 46,
+      "customer_id": 33,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 46",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-08-07T00:33:53Z",
+      "created_at": "2025-01-19T17:27:03Z",
+      "completed_at": "2023-01-09T04:24:22Z",
+      "notes": "Notes for intervention 46"
+    },
+    {
+      "id": 47,
+      "customer_id": 24,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 47",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-05-26T19:19:38Z",
+      "created_at": "2024-12-20T07:19:20Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 47"
+    },
+    {
+      "id": 48,
+      "customer_id": 28,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 48",
+      "next_action": "Escalate issue",
+      "due_date": "2025-06-07T07:53:15Z",
+      "created_at": "2024-12-22T01:12:12Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 48"
+    },
+    {
+      "id": 49,
+      "customer_id": 46,
+      "type": "Onboarding Call",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 49",
+      "next_action": "Schedule call",
+      "due_date": "2024-07-09T10:58:38Z",
+      "created_at": "2024-02-15T05:15:58Z",
+      "completed_at": "2024-09-28T15:55:51Z",
+      "notes": "Notes for intervention 49"
+    },
+    {
+      "id": 50,
+      "customer_id": 41,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 50",
+      "next_action": "Escalate issue",
+      "due_date": "2024-09-02T19:37:47Z",
+      "created_at": "2024-01-29T00:29:33Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 50"
+    },
+    {
+      "id": 51,
+      "customer_id": 14,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 51",
+      "next_action": "Schedule call",
+      "due_date": "2025-12-09T19:04:21Z",
+      "created_at": "2024-10-10T01:56:41Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 51"
+    },
+    {
+      "id": 52,
+      "customer_id": 50,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 52",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-09-29T22:22:10Z",
+      "created_at": "2023-05-25T01:48:36Z",
+      "completed_at": "2024-10-04T23:10:24Z",
+      "notes": "Notes for intervention 52"
+    },
+    {
+      "id": 53,
+      "customer_id": 39,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 53",
+      "next_action": "Review account",
+      "due_date": "2025-10-23T13:48:26Z",
+      "created_at": "2025-07-02T17:08:24Z",
+      "completed_at": "2024-01-25T07:45:20Z",
+      "notes": "Notes for intervention 53"
+    },
+    {
+      "id": 54,
+      "customer_id": 41,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 54",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-04-15T00:37:35Z",
+      "created_at": "2023-01-13T18:33:56Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 54"
+    },
+    {
+      "id": 55,
+      "customer_id": 18,
+      "type": "Onboarding Call",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 55",
+      "next_action": "Review account",
+      "due_date": "2025-06-20T23:23:34Z",
+      "created_at": "2024-12-15T22:19:36Z",
+      "completed_at": "2024-05-13T03:43:13Z",
+      "notes": "Notes for intervention 55"
+    },
+    {
+      "id": 56,
+      "customer_id": 18,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 56",
+      "next_action": "Escalate issue",
+      "due_date": "2024-06-17T15:47:16Z",
+      "created_at": "2023-07-12T02:08:44Z",
+      "completed_at": "2024-12-28T01:30:08Z",
+      "notes": "Notes for intervention 56"
+    },
+    {
+      "id": 57,
+      "customer_id": 47,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 57",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-05-08T01:40:41Z",
+      "created_at": "2024-04-21T07:47:26Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 57"
+    },
+    {
+      "id": 58,
+      "customer_id": 21,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 58",
+      "next_action": "Escalate issue",
+      "due_date": "2024-05-12T06:50:57Z",
+      "created_at": "2023-02-26T19:58:03Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 58"
+    },
+    {
+      "id": 59,
+      "customer_id": 36,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 59",
+      "next_action": "Review account",
+      "due_date": "2025-08-07T09:48:52Z",
+      "created_at": "2024-07-03T21:16:09Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 59"
+    },
+    {
+      "id": 60,
+      "customer_id": 35,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 60",
+      "next_action": "Escalate issue",
+      "due_date": "2024-08-20T07:11:47Z",
+      "created_at": "2025-05-17T10:07:57Z",
+      "completed_at": "2023-04-06T16:33:23Z",
+      "notes": "Notes for intervention 60"
+    },
+    {
+      "id": 61,
+      "customer_id": 28,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 61",
+      "next_action": "Escalate issue",
+      "due_date": "2024-05-19T09:23:22Z",
+      "created_at": "2023-03-16T18:52:32Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 61"
+    },
+    {
+      "id": 62,
+      "customer_id": 19,
+      "type": "Upsell Proposal",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 62",
+      "next_action": "Escalate issue",
+      "due_date": "2024-12-04T04:00:22Z",
+      "created_at": "2024-11-14T22:54:59Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 62"
+    },
+    {
+      "id": 63,
+      "customer_id": 20,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 63",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-08-10T17:53:46Z",
+      "created_at": "2025-02-11T16:53:11Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 63"
+    },
+    {
+      "id": 64,
+      "customer_id": 24,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 64",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-06-23T11:40:43Z",
+      "created_at": "2025-07-06T12:19:37Z",
+      "completed_at": "2024-05-26T21:38:45Z",
+      "notes": "Notes for intervention 64"
+    },
+    {
+      "id": 65,
+      "customer_id": 11,
+      "type": "Upsell Proposal",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 65",
+      "next_action": "Review account",
+      "due_date": "2024-11-20T13:01:30Z",
+      "created_at": "2023-02-01T09:41:04Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 65"
+    },
+    {
+      "id": 66,
+      "customer_id": 1,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 66",
+      "next_action": "Schedule call",
+      "due_date": "2024-06-10T01:38:32Z",
+      "created_at": "2023-11-24T11:48:17Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 66"
+    },
+    {
+      "id": 67,
+      "customer_id": 10,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 67",
+      "next_action": "Schedule call",
+      "due_date": "2025-08-07T18:01:49Z",
+      "created_at": "2023-12-16T03:01:12Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 67"
+    },
+    {
+      "id": 68,
+      "customer_id": 41,
+      "type": "Support Ticket Follow-up",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 68",
+      "next_action": "Review account",
+      "due_date": "2025-04-28T03:33:06Z",
+      "created_at": "2025-06-03T07:14:14Z",
+      "completed_at": "2024-07-02T09:06:26Z",
+      "notes": "Notes for intervention 68"
+    },
+    {
+      "id": 69,
+      "customer_id": 22,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 69",
+      "next_action": "Review account",
+      "due_date": "2024-03-26T21:25:56Z",
+      "created_at": "2024-09-19T14:34:10Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 69"
+    },
+    {
+      "id": 70,
+      "customer_id": 19,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 70",
+      "next_action": "Schedule call",
+      "due_date": "2024-02-09T10:40:28Z",
+      "created_at": "2023-06-29T12:51:11Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 70"
+    },
+    {
+      "id": 71,
+      "customer_id": 48,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 71",
+      "next_action": "Escalate issue",
+      "due_date": "2024-08-21T09:42:59Z",
+      "created_at": "2024-10-23T23:57:51Z",
+      "completed_at": "2023-01-01T03:47:39Z",
+      "notes": "Notes for intervention 71"
+    },
+    {
+      "id": 72,
+      "customer_id": 45,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 72",
+      "next_action": "Schedule call",
+      "due_date": "2025-01-26T19:13:21Z",
+      "created_at": "2024-04-08T00:47:46Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 72"
+    },
+    {
+      "id": 73,
+      "customer_id": 49,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 73",
+      "next_action": "Schedule call",
+      "due_date": "2025-09-09T05:58:37Z",
+      "created_at": "2025-04-19T16:37:10Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 73"
+    },
+    {
+      "id": 74,
+      "customer_id": 8,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 74",
+      "next_action": "Schedule call",
+      "due_date": "2025-07-04T05:41:30Z",
+      "created_at": "2025-07-28T21:24:10Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 74"
+    },
+    {
+      "id": 75,
+      "customer_id": 38,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 75",
+      "next_action": "Review account",
+      "due_date": "2025-04-16T02:50:54Z",
+      "created_at": "2024-05-30T18:50:51Z",
+      "completed_at": "2024-09-11T17:32:26Z",
+      "notes": "Notes for intervention 75"
+    },
+    {
+      "id": 76,
+      "customer_id": 14,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 76",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-04-20T04:35:18Z",
+      "created_at": "2023-05-16T08:15:24Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 76"
+    },
+    {
+      "id": 77,
+      "customer_id": 38,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 77",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-01-12T18:44:09Z",
+      "created_at": "2025-07-15T11:30:23Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 77"
+    },
+    {
+      "id": 78,
+      "customer_id": 27,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 78",
+      "next_action": "Schedule call",
+      "due_date": "2024-03-12T06:05:28Z",
+      "created_at": "2024-05-24T06:20:50Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 78"
+    },
+    {
+      "id": 79,
+      "customer_id": 34,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 79",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-08-09T22:27:38Z",
+      "created_at": "2025-02-21T03:08:00Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 79"
+    },
+    {
+      "id": 80,
+      "customer_id": 14,
+      "type": "Upsell Proposal",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 80",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-09-28T06:44:51Z",
+      "created_at": "2025-03-12T12:55:16Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 80"
+    },
+    {
+      "id": 81,
+      "customer_id": 18,
+      "type": "Onboarding Call",
+      "status": "active",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 81",
+      "next_action": "Review account",
+      "due_date": "2025-12-08T23:42:47Z",
+      "created_at": "2023-11-12T00:24:30Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 81"
+    },
+    {
+      "id": 82,
+      "customer_id": 25,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 82",
+      "next_action": "Review account",
+      "due_date": "2024-02-17T07:21:14Z",
+      "created_at": "2023-12-25T11:14:13Z",
+      "completed_at": "2025-12-15T06:08:56Z",
+      "notes": "Notes for intervention 82"
+    },
+    {
+      "id": 83,
+      "customer_id": 26,
+      "type": "Onboarding Call",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 83",
+      "next_action": "Schedule call",
+      "due_date": "2025-06-20T06:22:23Z",
+      "created_at": "2024-03-24T11:59:05Z",
+      "completed_at": "2025-10-21T18:40:56Z",
+      "notes": "Notes for intervention 83"
+    },
+    {
+      "id": 84,
+      "customer_id": 33,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 84",
+      "next_action": "Send follow-up email",
+      "due_date": "2024-10-08T16:04:00Z",
+      "created_at": "2023-12-18T13:37:56Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 84"
+    },
+    {
+      "id": 85,
+      "customer_id": 49,
+      "type": "Onboarding Call",
+      "status": "completed",
+      "priority": "high",
+      "assigned_csm": "John Doe",
+      "description": "Description for intervention 85",
+      "next_action": "Schedule call",
+      "due_date": "2025-12-21T13:51:24Z",
+      "created_at": "2025-05-26T03:59:43Z",
+      "completed_at": "2023-01-18T11:05:45Z",
+      "notes": "Notes for intervention 85"
+    },
+    {
+      "id": 86,
+      "customer_id": 26,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 86",
+      "next_action": "Schedule call",
+      "due_date": "2024-01-23T22:13:17Z",
+      "created_at": "2024-01-20T22:15:15Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 86"
+    },
+    {
+      "id": 87,
+      "customer_id": 6,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 87",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-06-12T04:48:08Z",
+      "created_at": "2025-07-23T09:05:55Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 87"
+    },
+    {
+      "id": 88,
+      "customer_id": 47,
+      "type": "Upsell Proposal",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 88",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-07-25T04:22:21Z",
+      "created_at": "2023-05-22T07:14:08Z",
+      "completed_at": "2024-10-04T11:14:47Z",
+      "notes": "Notes for intervention 88"
+    },
+    {
+      "id": 89,
+      "customer_id": 28,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 89",
+      "next_action": "Schedule call",
+      "due_date": "2024-01-11T23:11:43Z",
+      "created_at": "2025-04-25T14:23:35Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 89"
+    },
+    {
+      "id": 90,
+      "customer_id": 35,
+      "type": "Renewal Reminder",
+      "status": "completed",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 90",
+      "next_action": "Escalate issue",
+      "due_date": "2025-05-25T14:14:42Z",
+      "created_at": "2024-09-25T19:51:53Z",
+      "completed_at": "2023-05-09T01:14:58Z",
+      "notes": "Notes for intervention 90"
+    },
+    {
+      "id": 91,
+      "customer_id": 10,
+      "type": "Onboarding Call",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 91",
+      "next_action": "Escalate issue",
+      "due_date": "2024-02-20T16:26:17Z",
+      "created_at": "2023-10-24T14:16:35Z",
+      "completed_at": "2024-10-31T08:59:31Z",
+      "notes": "Notes for intervention 91"
+    },
+    {
+      "id": 92,
+      "customer_id": 49,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 92",
+      "next_action": "Schedule call",
+      "due_date": "2024-10-22T05:47:39Z",
+      "created_at": "2023-04-02T14:36:16Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 92"
+    },
+    {
+      "id": 93,
+      "customer_id": 12,
+      "type": "Upsell Proposal",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 93",
+      "next_action": "Schedule call",
+      "due_date": "2025-10-05T19:12:27Z",
+      "created_at": "2023-10-04T03:25:07Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 93"
+    },
+    {
+      "id": 94,
+      "customer_id": 16,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "high",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 94",
+      "next_action": "Escalate issue",
+      "due_date": "2025-03-21T19:38:11Z",
+      "created_at": "2023-08-18T13:34:13Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 94"
+    },
+    {
+      "id": 95,
+      "customer_id": 10,
+      "type": "Support Ticket Follow-up",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 95",
+      "next_action": "Escalate issue",
+      "due_date": "2024-06-25T08:21:22Z",
+      "created_at": "2025-07-29T17:22:37Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 95"
+    },
+    {
+      "id": 96,
+      "customer_id": 39,
+      "type": "Support Ticket Follow-up",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 96",
+      "next_action": "Review account",
+      "due_date": "2025-10-03T14:50:29Z",
+      "created_at": "2024-05-27T05:24:08Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 96"
+    },
+    {
+      "id": 97,
+      "customer_id": 32,
+      "type": "Onboarding Call",
+      "status": "pending",
+      "priority": "medium",
+      "assigned_csm": "Mark Patel",
+      "description": "Description for intervention 97",
+      "next_action": "Send follow-up email",
+      "due_date": "2025-10-06T13:44:57Z",
+      "created_at": "2023-08-26T07:23:11Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 97"
+    },
+    {
+      "id": 98,
+      "customer_id": 38,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "high",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 98",
+      "next_action": "Review account",
+      "due_date": "2024-05-14T23:32:57Z",
+      "created_at": "2025-03-09T21:27:50Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 98"
+    },
+    {
+      "id": 99,
+      "customer_id": 23,
+      "type": "Renewal Reminder",
+      "status": "active",
+      "priority": "medium",
+      "assigned_csm": "Sara Kim",
+      "description": "Description for intervention 99",
+      "next_action": "Escalate issue",
+      "due_date": "2024-04-26T22:13:27Z",
+      "created_at": "2024-02-02T02:35:28Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 99"
+    },
+    {
+      "id": 100,
+      "customer_id": 30,
+      "type": "Renewal Reminder",
+      "status": "pending",
+      "priority": "low",
+      "assigned_csm": "Jessica Lee",
+      "description": "Description for intervention 100",
+      "next_action": "Escalate issue",
+      "due_date": "2024-03-18T20:45:16Z",
+      "created_at": "2025-03-15T18:58:07Z",
+      "completed_at": null,
+      "notes": "Notes for intervention 100"
+    }
+  ],
+  "integrations": [
+    {
+      "id": 1,
+      "name": "Zendesk",
+      "type": "payment",
+      "status": "active",
+      "last_sync_at": "2023-09-10T21:00:37Z",
+      "config": {
+        "api_key": "key1xyz234",
+        "sync_interval_minutes": 60,
+        "enabled_features": [
+          "contacts"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Zendesk",
+      "type": "marketing",
+      "status": "active",
+      "last_sync_at": "2023-05-13T07:17:44Z",
+      "config": {
+        "api_key": "key2xyz798",
+        "sync_interval_minutes": 60,
+        "enabled_features": [
+          "leads"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Zendesk",
+      "type": "support",
+      "status": "inactive",
+      "last_sync_at": "2025-07-16T21:20:16Z",
+      "config": {
+        "api_key": "key3xyz779",
+        "sync_interval_minutes": 15,
+        "enabled_features": [
+          "contacts",
+          "tickets",
+          "leads"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Stripe",
+      "type": "crm",
+      "status": "active",
+      "last_sync_at": "2024-10-03T20:58:56Z",
+      "config": {
+        "api_key": "key4xyz211",
+        "sync_interval_minutes": 15,
+        "enabled_features": [
+          "contacts",
+          "leads",
+          "payments"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Stripe",
+      "type": "support",
+      "status": "active",
+      "last_sync_at": "2023-08-10T02:54:18Z",
+      "config": {
+        "api_key": "key5xyz301",
+        "sync_interval_minutes": 60,
+        "enabled_features": [
+          "contacts",
+          "tickets",
+          "payments"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Salesforce",
+      "type": "support",
+      "status": "active",
+      "last_sync_at": "2025-06-18T23:22:07Z",
+      "config": {
+        "api_key": "key6xyz466",
+        "sync_interval_minutes": 60,
+        "enabled_features": [
+          "leads",
+          "contacts",
+          "payments"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "HubSpot",
+      "type": "support",
+      "status": "active",
+      "last_sync_at": "2024-10-01T18:06:57Z",
+      "config": {
+        "api_key": "key7xyz988",
+        "sync_interval_minutes": 30,
+        "enabled_features": [
+          "leads"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Zendesk",
+      "type": "crm",
+      "status": "inactive",
+      "last_sync_at": "2025-02-20T13:42:02Z",
+      "config": {
+        "api_key": "key8xyz960",
+        "sync_interval_minutes": 15,
+        "enabled_features": [
+          "tickets",
+          "payments"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "HubSpot",
+      "type": "support",
+      "status": "inactive",
+      "last_sync_at": "2023-02-11T01:36:15Z",
+      "config": {
+        "api_key": "key9xyz673",
+        "sync_interval_minutes": 15,
+        "enabled_features": [
+          "contacts",
+          "leads",
+          "tickets"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Zendesk",
+      "type": "payment",
+      "status": "inactive",
+      "last_sync_at": "2023-10-21T16:07:06Z",
+      "config": {
+        "api_key": "key10xyz730",
+        "sync_interval_minutes": 30,
+        "enabled_features": [
+          "tickets",
+          "payments",
+          "contacts"
+        ]
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "message": "Alert message 1",
+      "read": true,
+      "created_at": "2023-12-12T19:50:58Z"
+    },
+    {
+      "id": 2,
+      "message": "Alert message 2",
+      "read": false,
+      "created_at": "2023-02-05T15:34:19Z"
+    },
+    {
+      "id": 3,
+      "message": "Alert message 3",
+      "read": false,
+      "created_at": "2024-07-20T06:07:06Z"
+    },
+    {
+      "id": 4,
+      "message": "Alert message 4",
+      "read": true,
+      "created_at": "2023-07-13T23:26:56Z"
+    },
+    {
+      "id": 5,
+      "message": "Alert message 5",
+      "read": false,
+      "created_at": "2023-12-08T11:11:32Z"
+    },
+    {
+      "id": 6,
+      "message": "Alert message 6",
+      "read": false,
+      "created_at": "2025-01-20T11:49:03Z"
+    },
+    {
+      "id": 7,
+      "message": "Alert message 7",
+      "read": false,
+      "created_at": "2023-06-15T06:25:02Z"
+    },
+    {
+      "id": 8,
+      "message": "Alert message 8",
+      "read": true,
+      "created_at": "2024-12-21T11:19:31Z"
+    },
+    {
+      "id": 9,
+      "message": "Alert message 9",
+      "read": true,
+      "created_at": "2025-02-14T12:55:55Z"
+    },
+    {
+      "id": 10,
+      "message": "Alert message 10",
+      "read": false,
+      "created_at": "2023-03-05T17:52:08Z"
+    }
+  ],
+  "churn_predictions": [
+    {
+      "id": 1,
+      "customer_id": 27,
+      "churn_probability": 0.08,
+      "risk_level": "low",
+      "top_causes": {
+        "Competitor switch": 0.38,
+        "Usage drop": 0.69
+      },
+      "prediction_date": "2024-10-20T08:50:39Z"
+    },
+    {
+      "id": 2,
+      "customer_id": 17,
+      "churn_probability": 0.68,
+      "risk_level": "low",
+      "top_causes": {
+        "Poor support": 0.41,
+        "Usage drop": 0.37
+      },
+      "prediction_date": "2023-04-17T17:58:04Z"
+    },
+    {
+      "id": 3,
+      "customer_id": 20,
+      "churn_probability": 0.95,
+      "risk_level": "medium",
+      "top_causes": {
+        "Poor support": 0.64,
+        "Low engagement": 0.1
+      },
+      "prediction_date": "2024-11-17T16:11:49Z"
+    },
+    {
+      "id": 4,
+      "customer_id": 28,
+      "churn_probability": 0.06,
+      "risk_level": "high",
+      "top_causes": {
+        "Competitor switch": 0.1,
+        "Usage drop": 0.59
+      },
+      "prediction_date": "2024-12-13T05:00:19Z"
+    },
+    {
+      "id": 5,
+      "customer_id": 11,
+      "churn_probability": 0.82,
+      "risk_level": "high",
+      "top_causes": {
+        "Poor support": 0.27,
+        "Usage drop": 0.35
+      },
+      "prediction_date": "2025-02-24T00:39:21Z"
+    },
+    {
+      "id": 6,
+      "customer_id": 37,
+      "churn_probability": 0.64,
+      "risk_level": "low",
+      "top_causes": {
+        "Poor support": 0.36,
+        "Competitor switch": 0.37
+      },
+      "prediction_date": "2023-03-14T21:47:38Z"
+    },
+    {
+      "id": 7,
+      "customer_id": 8,
+      "churn_probability": 0.43,
+      "risk_level": "low",
+      "top_causes": {
+        "Usage drop": 0.12
+      },
+      "prediction_date": "2024-05-14T17:48:49Z"
+    },
+    {
+      "id": 8,
+      "customer_id": 35,
+      "churn_probability": 0.51,
+      "risk_level": "medium",
+      "top_causes": {
+        "Low engagement": 0.3,
+        "Usage drop": 0.45
+      },
+      "prediction_date": "2024-02-10T17:58:43Z"
+    },
+    {
+      "id": 9,
+      "customer_id": 14,
+      "churn_probability": 0.41,
+      "risk_level": "high",
+      "top_causes": {
+        "Poor support": 0.23,
+        "Low engagement": 0.53
+      },
+      "prediction_date": "2023-07-15T20:36:17Z"
+    },
+    {
+      "id": 10,
+      "customer_id": 17,
+      "churn_probability": 0.07,
+      "risk_level": "high",
+      "top_causes": {
+        "Poor support": 0.62,
+        "Low engagement": 0.27
+      },
+      "prediction_date": "2023-03-01T04:55:34Z"
+    }
+  ],
+  "churn_causes": [
+    {
+      "id": 1,
+      "cause": "Low engagement",
+      "count": 196,
+      "percent": 26,
+      "impact": "medium"
+    },
+    {
+      "id": 2,
+      "cause": "Low engagement",
+      "count": 196,
+      "percent": 20,
+      "impact": "high"
+    },
+    {
+      "id": 3,
+      "cause": "Product bugs",
+      "count": 94,
+      "percent": 41,
+      "impact": "low"
+    },
+    {
+      "id": 4,
+      "cause": "Competitor switch",
+      "count": 76,
+      "percent": 21,
+      "impact": "medium"
+    },
+    {
+      "id": 5,
+      "cause": "Competitor switch",
+      "count": 106,
+      "percent": 38,
+      "impact": "low"
+    },
+    {
+      "id": 6,
+      "cause": "Competitor switch",
+      "count": 84,
+      "percent": 25,
+      "impact": "high"
+    },
+    {
+      "id": 7,
+      "cause": "Competitor switch",
+      "count": 167,
+      "percent": 23,
+      "impact": "low"
+    },
+    {
+      "id": 8,
+      "cause": "Billing issues",
+      "count": 110,
+      "percent": 18,
+      "impact": "high"
+    },
+    {
+      "id": 9,
+      "cause": "Competitor switch",
+      "count": 77,
+      "percent": 43,
+      "impact": "low"
+    },
+    {
+      "id": 10,
+      "cause": "Billing issues",
+      "count": 178,
+      "percent": 11,
+      "impact": "medium"
+    }
+  ],
+  "playbooks": [
+    {
+      "id": 1,
+      "name": "Playbook 1",
+      "description": "Description of playbook 1",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2025-04-27T18:02:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Playbook 2",
+      "description": "Description of playbook 2",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2024-08-20T15:44:03Z"
+    },
+    {
+      "id": 3,
+      "name": "Playbook 3",
+      "description": "Description of playbook 3",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2023-11-23T13:07:18Z"
+    },
+    {
+      "id": 4,
+      "name": "Playbook 4",
+      "description": "Description of playbook 4",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2023-06-19T05:40:22Z"
+    },
+    {
+      "id": 5,
+      "name": "Playbook 5",
+      "description": "Description of playbook 5",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2024-07-30T19:31:03Z"
+    },
+    {
+      "id": 6,
+      "name": "Playbook 6",
+      "description": "Description of playbook 6",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2023-05-13T22:49:16Z"
+    },
+    {
+      "id": 7,
+      "name": "Playbook 7",
+      "description": "Description of playbook 7",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2023-10-05T23:48:38Z"
+    },
+    {
+      "id": 8,
+      "name": "Playbook 8",
+      "description": "Description of playbook 8",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2024-12-01T13:41:28Z"
+    },
+    {
+      "id": 9,
+      "name": "Playbook 9",
+      "description": "Description of playbook 9",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2024-12-05T13:23:27Z"
+    },
+    {
+      "id": 10,
+      "name": "Playbook 10",
+      "description": "Description of playbook 10",
+      "steps": [
+        "Step 1: Identify",
+        "Step 2: Reach out",
+        "Step 3: Follow-up",
+        "Step 4: Monitor"
+      ],
+      "created_at": "2024-10-04T06:24:43Z"
+    }
+  ],
+  "playbook_executions": [
+    {
+      "id": 1,
+      "playbook_id": 8,
+      "customer_id": 3,
+      "status": "failed",
+      "started_at": "2023-08-02T16:13:20Z",
+      "completed_at": "2025-07-28T02:56:22Z",
+      "result": {
+        "steps_completed": 2,
+        "issues_found": 2
+      }
+    },
+    {
+      "id": 2,
+      "playbook_id": 10,
+      "customer_id": 15,
+      "status": "failed",
+      "started_at": "2025-04-27T11:25:54Z",
+      "completed_at": "2025-05-24T08:53:22Z",
+      "result": {
+        "steps_completed": 3,
+        "issues_found": 2
+      }
+    },
+    {
+      "id": 3,
+      "playbook_id": 9,
+      "customer_id": 12,
+      "status": "running",
+      "started_at": "2025-01-26T15:44:16Z",
+      "completed_at": "2025-04-07T12:54:41Z",
+      "result": {
+        "steps_completed": 4,
+        "issues_found": 0
+      }
+    },
+    {
+      "id": 4,
+      "playbook_id": 4,
+      "customer_id": 23,
+      "status": "failed",
+      "started_at": "2025-08-10T06:22:43Z",
+      "completed_at": "2024-11-24T03:02:28Z",
+      "result": {
+        "steps_completed": 1,
+        "issues_found": 0
+      }
+    },
+    {
+      "id": 5,
+      "playbook_id": 3,
+      "customer_id": 35,
+      "status": "running",
+      "started_at": "2023-11-12T16:55:17Z",
+      "completed_at": null,
+      "result": {
+        "steps_completed": 3,
+        "issues_found": 0
+      }
+    },
+    {
+      "id": 6,
+      "playbook_id": 2,
+      "customer_id": 39,
+      "status": "completed",
+      "started_at": "2024-03-10T05:45:32Z",
+      "completed_at": "2024-08-10T14:16:54Z",
+      "result": {
+        "steps_completed": 1,
+        "issues_found": 2
+      }
+    },
+    {
+      "id": 7,
+      "playbook_id": 9,
+      "customer_id": 30,
+      "status": "failed",
+      "started_at": "2024-07-19T13:16:35Z",
+      "completed_at": "2024-12-05T11:11:04Z",
+      "result": {
+        "steps_completed": 3,
+        "issues_found": 1
+      }
+    },
+    {
+      "id": 8,
+      "playbook_id": 7,
+      "customer_id": 49,
+      "status": "running",
+      "started_at": "2025-05-18T17:52:23Z",
+      "completed_at": null,
+      "result": {
+        "steps_completed": 3,
+        "issues_found": 2
+      }
+    },
+    {
+      "id": 9,
+      "playbook_id": 5,
+      "customer_id": 9,
+      "status": "failed",
+      "started_at": "2023-07-28T23:14:01Z",
+      "completed_at": null,
+      "result": {
+        "steps_completed": 2,
+        "issues_found": 1
+      }
+    },
+    {
+      "id": 10,
+      "playbook_id": 1,
+      "customer_id": 3,
+      "status": "failed",
+      "started_at": "2023-08-22T23:42:06Z",
+      "completed_at": null,
+      "result": {
+        "steps_completed": 4,
+        "issues_found": 0
+      }
+    }
+  ],
+  "user_sessions": [
+    {
+      "id": 1,
+      "customer_id": 27,
+      "started_at": "2024-07-29T18:11:35Z",
+      "ended_at": "2024-07-29T18:58:35Z",
+      "pages_viewed": 12,
+      "actions": [
+        {
+          "type": "submit",
+          "form": "contact_form"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_id": 4,
+      "started_at": "2023-12-26T07:40:54Z",
+      "ended_at": "2023-12-26T08:21:54Z",
+      "pages_viewed": 16,
+      "actions": [
+        {
+          "type": "hover",
+          "element": "profile_pic"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer_id": 14,
+      "started_at": "2023-07-12T12:33:43Z",
+      "ended_at": "2023-07-12T12:48:43Z",
+      "pages_viewed": 19,
+      "actions": [
+        {
+          "type": "hover",
+          "element": "profile_pic"
+        },
+        {
+          "type": "click",
+          "element": "settings"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customer_id": 17,
+      "started_at": "2023-02-18T10:55:55Z",
+      "ended_at": "2023-02-18T11:17:55Z",
+      "pages_viewed": 10,
+      "actions": [
+        {
+          "type": "scroll",
+          "distance": 59
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customer_id": 48,
+      "started_at": "2025-06-28T14:33:11Z",
+      "ended_at": "2025-06-28T14:50:11Z",
+      "pages_viewed": 8,
+      "actions": [
+        {
+          "type": "hover",
+          "element": "profile_pic"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customer_id": 31,
+      "started_at": "2024-02-12T19:15:07Z",
+      "ended_at": "2024-02-12T19:24:07Z",
+      "pages_viewed": 12,
+      "actions": [
+        {
+          "type": "click",
+          "element": "dashboard"
+        },
+        {
+          "type": "hover",
+          "element": "profile_pic"
+        },
+        {
+          "type": "click",
+          "element": "settings"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customer_id": 2,
+      "started_at": "2024-04-08T11:53:33Z",
+      "ended_at": "2024-04-08T12:06:33Z",
+      "pages_viewed": 7,
+      "actions": [
+        {
+          "type": "hover",
+          "element": "profile_pic"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customer_id": 28,
+      "started_at": "2025-03-18T07:47:11Z",
+      "ended_at": "2025-03-18T08:17:11Z",
+      "pages_viewed": 10,
+      "actions": [
+        {
+          "type": "submit",
+          "form": "contact_form"
+        },
+        {
+          "type": "click",
+          "element": "settings"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customer_id": 20,
+      "started_at": "2023-07-29T20:46:30Z",
+      "ended_at": "2023-07-29T21:32:30Z",
+      "pages_viewed": 6,
+      "actions": [
+        {
+          "type": "submit",
+          "form": "contact_form"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customer_id": 33,
+      "started_at": "2024-09-13T19:01:17Z",
+      "ended_at": "2024-09-13T19:27:17Z",
+      "pages_viewed": 13,
+      "actions": [
+        {
+          "type": "click",
+          "element": "dashboard"
+        },
+        {
+          "type": "submit",
+          "form": "contact_form"
+        },
+        {
+          "type": "hover",
+          "element": "profile_pic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Minimal, developer-first palette inspired by Vercel/Cursor */
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(240, 6%, 10%);
+
+  --muted: hsl(240, 5%, 96%);
+  --muted-foreground: hsl(240, 3.8%, 46%);
+
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(240, 6%, 10%);
+
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(240, 6%, 10%);
+
+  --border: hsl(240, 6%, 90%);
+  --input: hsl(240, 6%, 90%);
+
+  /* Primary buttons are solid black in light mode */
+  --primary: hsl(0, 0%, 7%);
+  --primary-foreground: hsl(0, 0%, 98%);
+
+  --secondary: hsl(240, 5%, 96%);
+  --secondary-foreground: hsl(240, 6%, 10%);
+
+  --accent: hsl(240, 5%, 96%);
+  --accent-foreground: hsl(240, 6%, 10%);
+
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+
+  /* Focus ring is subtle gray */
+  --ring: hsl(240, 5%, 65%);
+
+  --radius: 0.5rem;
+
+  /* Status colors (kept but toned to modern hues) */
+  --success: hsl(152, 57%, 42%);
+  --success-foreground: hsl(0, 0%, 100%);
+  --warning: hsl(40, 92%, 48%);
+  --warning-foreground: hsl(26, 83%, 14%);
+  --danger: hsl(0, 72%, 48%);
+  --danger-foreground: hsl(0, 0%, 98%);
+
+  /* Risk level colors */
+  --risk-high: hsl(0, 84%, 60%);
+  --risk-high-foreground: hsl(0, 0%, 98%);
+  --risk-medium: hsl(40, 92%, 48%);
+  --risk-medium-foreground: hsl(26, 83%, 14%);
+  --risk-low: hsl(152, 65%, 45%);
+  --risk-low-foreground: hsl(0, 0%, 100%);
+
+  /* Sidebar palette (used by Tailwind theme colors.sidebar.*) */
+  --sidebar-background: var(--background);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: var(--muted);
+  --sidebar-accent-foreground: var(--foreground);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
+}
+
+.dark {
+  --background: hsl(0, 0%, 7%);
+  --foreground: hsl(0, 0%, 98%);
+
+  --muted: hsl(240, 4%, 12%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+
+  --popover: hsl(0, 0%, 7%);
+  --popover-foreground: hsl(0, 0%, 98%);
+
+  --card: hsl(0, 0%, 7%);
+  --card-foreground: hsl(0, 0%, 98%);
+
+  --border: hsl(240, 4%, 22%);
+  --input: hsl(240, 4%, 22%);
+
+  /* In dark, primary is white for better contrast */
+  --primary: hsl(0, 0%, 100%);
+  --primary-foreground: hsl(0, 0%, 7%);
+
+  --secondary: hsl(240, 4%, 16%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+
+  --accent: hsl(240, 4%, 16%);
+  --accent-foreground: hsl(0, 0%, 98%);
+
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+
+  /* Sidebar palette (dark) - improved contrast */
+  --sidebar-background: hsl(0, 0%, 4%);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: hsl(240, 4%, 14%);
+  --sidebar-accent-foreground: var(--foreground);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+}
+
+@layer utilities {
+  .risk-high {
+    @apply bg-red-50 text-red-800 border-red-200;
+  }
+  
+  .risk-medium {
+    @apply bg-yellow-50 text-yellow-800 border-yellow-200;
+  }
+  
+  .risk-low {
+    @apply bg-green-50 text-green-800 border-green-200;
+  }
+  
+  .status-connected {
+    @apply bg-green-100 text-green-800;
+  }
+  
+  .status-syncing {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+  
+  .status-error {
+    @apply bg-red-100 text-red-800;
+  }
+}
